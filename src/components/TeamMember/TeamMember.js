@@ -20,7 +20,7 @@ class TeamMember extends React.PureComponent {
 
   render() {
     return (
-      <div className="container">
+      <div className="container" >
         <header>
           <div className="avatar-container">
             <img
@@ -30,7 +30,7 @@ class TeamMember extends React.PureComponent {
             />
           </div>
           <h2 className="title">{this.props.title}</h2>
-          <h1 className="name">{this.props.name}</h1>
+          <h1 className="name" onClick={this.props.customClickEvent}>{this.props.name} </h1>
         </header>
         <div className="body">{this.props.story}</div>
         <footer style={{ backgroundColor: this.props.favoriteColor }}>

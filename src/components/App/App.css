@@ -21,6 +21,28 @@
   text-align: center;
 }
 
+.nav-bar {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 20px;
+  background-image: url('../../assets/arrow.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding: 2px;
+}
+
+.nav-bar p {
+  padding: 30px;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 75px;
+  padding-top: 20px;
+  text-align: left;
+}
+
 @media screen and (min-width: 1080px) {
   .app {
     margin-bottom: 44px;
